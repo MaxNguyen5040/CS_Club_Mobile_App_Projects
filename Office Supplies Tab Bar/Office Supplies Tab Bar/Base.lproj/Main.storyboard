@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jD1-RN-WvO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pencil-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Office_Supplies_Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" translatesAutoresizingMaskIntoConstraints="NO" id="z0S-zs-9BO">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z0S-zs-9BO" secondAttribute="bottom" id="0UW-7m-rQy"/>
+                            <constraint firstItem="z0S-zs-9BO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aWH-em-y5b"/>
+                            <constraint firstItem="z0S-zs-9BO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k8L-EG-Alg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z0S-zs-9BO" secondAttribute="trailing" id="zGc-nu-p0k"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pencil" id="otM-Zt-mXl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2715.9420289855075" y="420.53571428571428"/>
+        </scene>
+        <!--Phone-->
+        <scene sceneID="c7c-o6-520">
+            <objects>
+                <viewController id="kTT-aH-dWD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sAt-FV-ViY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="TKe-IF-dk9">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wSe-zV-ehn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TKe-IF-dk9" firstAttribute="top" secondItem="wSe-zV-ehn" secondAttribute="top" id="4mA-LG-BPU"/>
+                            <constraint firstItem="wSe-zV-ehn" firstAttribute="bottom" secondItem="TKe-IF-dk9" secondAttribute="bottom" id="VEv-OO-fi9"/>
+                            <constraint firstItem="wSe-zV-ehn" firstAttribute="trailing" secondItem="TKe-IF-dk9" secondAttribute="trailing" id="bIB-lo-Ul8"/>
+                            <constraint firstItem="TKe-IF-dk9" firstAttribute="leading" secondItem="wSe-zV-ehn" secondAttribute="leading" id="bhi-V7-DsB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Phone" id="2oU-tp-Ze5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gks-Wh-mR7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3744.9275362318845" y="1195.9821428571429"/>
+        </scene>
+        <!--Envelope-->
+        <scene sceneID="Xe4-Vt-vbU">
+            <objects>
+                <viewController title="Envelope" id="TSi-gn-W2p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yF1-yp-Xus">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope" translatesAutoresizingMaskIntoConstraints="NO" id="FRE-Pb-di6">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="evl-PX-8h5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="evl-PX-8h5" firstAttribute="trailing" secondItem="FRE-Pb-di6" secondAttribute="trailing" id="7KZ-cB-VA5"/>
+                            <constraint firstItem="evl-PX-8h5" firstAttribute="bottom" secondItem="FRE-Pb-di6" secondAttribute="bottom" id="Eab-SR-ebu"/>
+                            <constraint firstItem="FRE-Pb-di6" firstAttribute="leading" secondItem="evl-PX-8h5" secondAttribute="leading" id="H2b-zA-4Ah"/>
+                            <constraint firstItem="FRE-Pb-di6" firstAttribute="top" secondItem="evl-PX-8h5" secondAttribute="top" id="ak3-Re-VAK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Envelope" id="z60-rH-hI2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XLS-Wg-YHT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584.057971014493" y="-590.625"/>
+        </scene>
+        <!--Paperclip-->
+        <scene sceneID="3n1-uD-pxu">
+            <objects>
+                <viewController id="nV8-Xg-dm7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gOh-KO-V3R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paperclip" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-xp-FaA">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ety-5h-06C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ety-5h-06C" firstAttribute="trailing" secondItem="PCX-xp-FaA" secondAttribute="trailing" id="ADH-ez-FsK"/>
+                            <constraint firstItem="PCX-xp-FaA" firstAttribute="top" secondItem="ety-5h-06C" secondAttribute="top" id="Go2-dN-J0t"/>
+                            <constraint firstItem="PCX-xp-FaA" firstAttribute="leading" secondItem="ety-5h-06C" secondAttribute="leading" id="KwQ-Td-0oR"/>
+                            <constraint firstItem="ety-5h-06C" firstAttribute="bottom" secondItem="PCX-xp-FaA" secondAttribute="bottom" id="VjV-wI-EoJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Paperclip" id="dEo-I4-zbj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7iO-Z7-GjE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3536.2318840579715" y="-263.16964285714283"/>
+        </scene>
+        <!--Printer-->
+        <scene sceneID="5Pf-11-HgE">
+            <objects>
+                <viewController id="qyV-dQ-cb0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g7U-Mi-VyA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="printer" translatesAutoresizingMaskIntoConstraints="NO" id="WYD-Ec-9vQ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Z66-Fu-bXD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WYD-Ec-9vQ" firstAttribute="top" secondItem="Z66-Fu-bXD" secondAttribute="top" id="DUL-9B-nAK"/>
+                            <constraint firstItem="WYD-Ec-9vQ" firstAttribute="trailing" secondItem="Z66-Fu-bXD" secondAttribute="trailing" id="Y4I-w8-UvG"/>
+                            <constraint firstItem="Z66-Fu-bXD" firstAttribute="bottom" secondItem="WYD-Ec-9vQ" secondAttribute="bottom" id="ZnN-O1-M4T"/>
+                            <constraint firstItem="WYD-Ec-9vQ" firstAttribute="leading" secondItem="Z66-Fu-bXD" secondAttribute="leading" id="hLi-CQ-zlr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Printer" id="s40-sv-wZj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rgR-Ey-NIK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584.057971014493" y="1652.6785714285713"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yyh-xa-4ak">
+            <objects>
+                <tabBarController id="jD1-RN-WvO" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KlZ-Ig-PhF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="qqq-eT-o3W" kind="relationship" relationship="viewControllers" id="ohE-K8-N57"/>
+                        <segue destination="DWw-6f-XoB" kind="relationship" relationship="viewControllers" id="q83-CU-4dq"/>
+                        <segue destination="XKV-VM-AF1" kind="relationship" relationship="viewControllers" id="4yZ-G8-hXo"/>
+                        <segue destination="OlM-Yf-4Wv" kind="relationship" relationship="viewControllers" id="UVA-2X-5Li"/>
+                        <segue destination="fAZ-Nx-aTf" kind="relationship" relationship="viewControllers" id="awD-i9-9ut"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EN6-O0-gdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-196" y="421"/>
+        </scene>
+        <!--Envelope-->
+        <scene sceneID="H8p-vT-O5w">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DWw-6f-XoB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Envelope" image="envelope" catalog="system" selectedImage="envelope.fill" id="jds-QM-I3r"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dtd-6I-6oT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TSi-gn-W2p" kind="relationship" relationship="rootViewController" id="JwD-6A-HZB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfd-cy-21z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673.91304347826087" y="-590.625"/>
+        </scene>
+        <!--Paperclip-->
+        <scene sceneID="k8p-0T-KWs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OlM-Yf-4Wv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Paperclip" image="paperclip.circle" catalog="system" selectedImage="paperclip.circle.fill" id="DsH-dB-zaN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bzZ-c2-DRW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nV8-Xg-dm7" kind="relationship" relationship="rootViewController" id="6Ad-LE-hH9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifc-Mp-N8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2626.0869565217395" y="-263.16964285714283"/>
+        </scene>
+        <!--Pencil-->
+        <scene sceneID="BhV-0m-5k7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XKV-VM-AF1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pencil" image="pencil.circle" catalog="system" selectedImage="pencil.circle.fill" id="dk2-vm-XIT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="708-Z4-wDS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CrS-Ws-SxD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaZ-bY-51O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="420.53571428571428"/>
+        </scene>
+        <!--Phone-->
+        <scene sceneID="Y3d-gF-N4y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fAZ-Nx-aTf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Phone" image="phone.down" catalog="system" selectedImage="phone.down.fill" id="rxU-JR-VPD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VnS-An-cYo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kTT-aH-dWD" kind="relationship" relationship="rootViewController" id="frd-vO-goU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bbz-a9-bn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2834.7826086956525" y="1195.9821428571429"/>
+        </scene>
+        <!--Printer-->
+        <scene sceneID="k95-xH-JzM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qqq-eT-o3W" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Printer" image="printer" catalog="system" selectedImage="printer.fill.and.paper.fill" id="bee-3r-8Yh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qeZ-jU-yzZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qyV-dQ-cb0" kind="relationship" relationship="rootViewController" id="GcR-Kz-Ywr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zyn-n3-CUh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673.91304347826087" y="1652.6785714285713"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="envelope" catalog="system" width="128" height="93"/>
+        <image name="envelope" width="500" height="666"/>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
+        <image name="paperclip" width="600" height="400"/>
+        <image name="paperclip.circle" catalog="system" width="128" height="121"/>
+        <image name="paperclip.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="pencil" width="2000" height="2000"/>
+        <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="phone" width="500" height="500"/>
+        <image name="phone.down" catalog="system" width="128" height="57"/>
+        <image name="phone.down.fill" catalog="system" width="128" height="52"/>
+        <image name="printer" width="275" height="183"/>
+        <image name="printer" catalog="system" width="128" height="111"/>
+        <image name="printer.fill.and.paper.fill" catalog="system" width="128" height="111"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
